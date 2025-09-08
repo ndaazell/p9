@@ -54,12 +54,29 @@ main {
 
 /* Card Project */
 .card {
-    background: blue;
+    position: relative;
+    background: url("images/bg.jpg") no-repeat center center; /* Ganti dengan nama file gambarmu */
+    background-size: cover;
     margin: 20px 0;
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: white; /* teks biar kontras */
+    overflow: hidden;
+}
+
+.card::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0, 0, 0, 0.4); /* overlay hitam transparan */
+    border-radius: 12px;
+    z-index: 0;
+}
+
+.card * {
+    position: relative;
+    z-index: 1;
 }
 
 .card:hover {
@@ -88,4 +105,5 @@ main {
         width: 100%;
     }
 }
+
 
