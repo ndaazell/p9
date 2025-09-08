@@ -7,12 +7,12 @@ body {
     height: 100vh;
     margin: 0;
     background: linear-gradient(to right, #e0eafc, #cfdef3);
-    color: #333;
+    color: #332;
 }
 
 /* Navigasi */
 nav {
-    width: 250px;
+    width: 210px;
     background-color: #ffffffcc;
     padding: 20px;
     box-shadow: 2px 0px 5px rgba(0,0,0,0.1);
@@ -88,3 +88,4 @@ main {
         width: 100%;
     }
 }
+
