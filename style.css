@@ -55,7 +55,7 @@ main {
 /* Card Project */
 .card {
     position: relative;
-    background: url("images/bg.jpg") no-repeat center center; /* Ganti dengan nama file gambarmu */
+    background: url("komputer.jpg") no-repeat center center; /* Ganti dengan nama file gambarmu */
     background-size: cover;
     margin: 20px 0;
     padding: 20px;
@@ -105,5 +105,6 @@ main {
         width: 100%;
     }
 }
+
 
 
